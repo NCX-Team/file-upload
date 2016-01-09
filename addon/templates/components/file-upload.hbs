@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action={{url}} enctype="multipart/form-data" method="post">
+  {{input type="hidden" name="utf8" value="✓"}}
+  {{input type="file" class="hidden" name="file"}}
+  {{yield this}}
+</form>

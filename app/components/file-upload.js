@@ -1,0 +1,1 @@
+export { default } from 'uncharted-file-upload/components/file-upload';
