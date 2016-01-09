@@ -1,8 +1,6 @@
 import Ember from 'ember';
-import layout from '../templates/components/file-upload';
 
 export default Ember.Component.extend({
-  layout: layout
   drop_enabled: false,
   drag_in_element: false,
   type_match: /image.*/,
